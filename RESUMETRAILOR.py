@@ -18,7 +18,7 @@ llm = AzureChatOpenAI(
     model="gpt-4o",
 )
 def load_pdfs():
-    ret = PyPDFDirectoryLoader("/Users/umang/Desktop/Resumes:CV")
+    ret = PyPDFDirectoryLoader("/Users/Nakul/Desktop/Resumes:CV")
     return ret.load()
 
 #TAKING INPUTS
